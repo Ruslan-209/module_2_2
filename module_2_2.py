@@ -6,14 +6,14 @@
 # Если равных чисел среди 3-х вообще нет, то вывести 0
 
 
-numbers1 = str(input('введите первое число: '))
-numbers2 = str(input('введите второе число: '))
-numbers3 = str(input('введите третье число: '))
+numbers1 = (input('введите первое число: '))
+numbers2 = (input('введите второе число: '))
+numbers3 = (input('введите третье число: '))
 print(numbers1, numbers2, numbers3)
 
 if numbers1 == numbers2 == numbers3:
-    print('third')
+    print(3)
 elif numbers1 == numbers2 or numbers1 == numbers3 or numbers2 == numbers3:
-    print('second')
+    print(2)
 else:
-    print('first')
+    print(1)
